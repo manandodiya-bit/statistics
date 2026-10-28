@@ -41,13 +41,17 @@ statistics/
 │   ├── README.md            # Hypothesis Testing, t-Tests, p-Values & A/B Testing
 │   ├── session_6.py         # Complete Python execution script (Tasks 1-4)
 │   └── session_6.ipynb      # Interactive Jupyter Notebook
-└── Session 7/
-    ├── README.md            # Correlation, Scatter Plots, np.corrcoef Analysis
-    ├── session_7.py         # Python script & plot generator (Tasks 1-4)
-    ├── session_7.ipynb      # Interactive Jupyter Notebook
-    └── plots/
-        ├── task_1_instagram_scatter.png
-        └── task_4_spotify_vs_marks_negative_correlation.png
+├── Session 7/
+│   ├── README.md            # Correlation, Scatter Plots, np.corrcoef Analysis
+│   ├── session_7.py         # Python script & plot generator (Tasks 1-4)
+│   ├── session_7.ipynb      # Interactive Jupyter Notebook
+│   └── plots/
+│       ├── task_1_instagram_scatter.png
+│       └── task_4_spotify_vs_marks_negative_correlation.png
+└── Session 8/
+    ├── README.md            # Probability Basics, Simulations & Recommendation Systems
+    ├── session_8.py         # Complete Python execution script (Tasks 1-5)
+    └── session_8.ipynb      # Interactive Jupyter Notebook
 ```
 
 ---
@@ -98,6 +102,13 @@ statistics/
 - **Task 3:** Analyzed real-life negative correlation between daily YouTube entertainment screen time and focused study hours.
 - **Task 4:** Generated and plotted 10-pair dataset demonstrating strong negative correlation ($r = -0.9963$) between Spotify hours and exam test marks.
 
+### [Session 8: Probability Basics](Session%208/README.md)
+- **Task 1:** Implemented `calculate_probability(event_count, total_outcomes)` and evaluated fair coin toss ($P(\text{Heads}) = 0.50$).
+- **Task 2:** Simulated 100 dice rolls, comparing experimental probability of rolling '6' ($0.20$) against theoretical probability ($1/6 \approx 0.1667$).
+- **Task 3:** Calculated probability of randomly selecting a 'pop' song from recent Spotify listening history ($9/20 = 0.45$).
+- **Task 4:** Implemented set-theoretic intersection over union for Zomato food and dessert orders ($P(\text{Both}) = 3/10 = 0.30$).
+- **Task 5:** Modeled Flipkart recommendation engine using conditional probability $P(\text{Headphones} \mid \text{Phone}) = 70.0\%$ for targeted cross-selling.
+
 ---
 
 ## Quick Start
@@ -113,6 +124,7 @@ python "Session 5/random_sampling.py"
 python "Session 5/session_5.py"
 python "Session 6/session_6.py"
 python "Session 7/session_7.py"
+python "Session 8/session_8.py"
 ```
 
 ### Launch Interactive Notebooks
@@ -124,4 +136,5 @@ jupyter notebook "Session 4/session_4.ipynb"
 jupyter notebook "Session 5/session_5.ipynb"
 jupyter notebook "Session 6/session_6.ipynb"
 jupyter notebook "Session 7/session_7.ipynb"
+jupyter notebook "Session 8/session_8.ipynb"
 ```
