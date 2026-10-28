@@ -25,13 +25,18 @@ statistics/
 │   ├── README.md            # Variance & Standard Deviation Hand Calculations
 │   ├── session_3.py         # Complete Python execution script (Tasks 1-4)
 │   └── session_3.ipynb      # Interactive Jupyter Notebook
-└── Session 4/
-    ├── README.md            # Skewness (Basic), Distributions & Real-World Apps
-    ├── session_4.py         # Python script & plot generator (Tasks 1-4)
-    ├── session_4.ipynb      # Interactive Jupyter Notebook
-    └── plots/
-        ├── swiggy_orders_distribution.png     # Right-skewed distribution
-        └── flipkart_ratings_distribution.png  # Left-skewed distribution
+├── Session 4/
+│   ├── README.md            # Skewness (Basic), Distributions & Real-World Apps
+│   ├── session_4.py         # Python script & plot generator (Tasks 1-4)
+│   ├── session_4.ipynb      # Interactive Jupyter Notebook
+│   └── plots/
+│       ├── swiggy_orders_distribution.png     # Right-skewed distribution
+│       └── flipkart_ratings_distribution.png  # Left-skewed distribution
+└── Session 5/
+    ├── README.md            # Sampling Theory, Bias Analysis & Methodologies
+    ├── random_sampling.py   # Dedicated Task 2 script (random.sample)
+    ├── session_5.py         # Complete Python execution script (Tasks 1-5)
+    └── session_5.ipynb      # Interactive Jupyter Notebook
 ```
 
 ---
@@ -63,6 +68,13 @@ statistics/
 - **Task 3:** Real-world right-skewed app analysis of Zomato order basket amounts (bounded lower end vs. unbounded upper catering orders).
 - **Task 4:** Flipkart product ratings graphed and classified as **Left-Skewed** ($\text{Mean } 4.30 < \text{Median } 4.50 < \text{Mode } 5.00$) with one-line justification.
 
+### [Session 5: Sampling](Session%205/README.md)
+- **Task 1:** Defined population and sample with 3 app examples (Instagram followers, Zomato restaurants, Flipkart reviews).
+- **Task 2:** Created `random_sampling.py` simulating selection of 50 random users from 1,000 user IDs via `random.sample()`.
+- **Task 3:** Explained why Swiggy analyzes delivery times via sampling rather than querying all historical orders.
+- **Task 4:** Identified and analyzed Selection Bias / Undercoverage Bias in Spotify's Bollywood-only music survey.
+- **Task 5:** Designed Stratified Sampling and Systematic Sampling frameworks for studying BookMyShow movie booking habits.
+
 ---
 
 ## Quick Start
@@ -74,6 +86,8 @@ python "Session 2/playlist_stats.py"
 python "Session 2/session_2.py"
 python "Session 3/session_3.py"
 python "Session 4/session_4.py"
+python "Session 5/random_sampling.py"
+python "Session 5/session_5.py"
 ```
 
 ### Launch Interactive Notebooks
@@ -82,4 +96,5 @@ jupyter notebook "Session 1/session_1.ipynb"
 jupyter notebook "Session 2/session_2.ipynb"
 jupyter notebook "Session 3/session_3.ipynb"
 jupyter notebook "Session 4/session_4.ipynb"
+jupyter notebook "Session 5/session_5.ipynb"
 ```
