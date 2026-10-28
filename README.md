@@ -14,13 +14,17 @@ statistics/
 │   ├── README.md            # App Data Classification & Feature Improvement
 │   ├── session_1.py         # Complete Python execution script
 │   └── session_1.ipynb      # Interactive Jupyter Notebook
-└── Session 2/
-    ├── README.md            # Mean, Median, Mode & Outlier Analysis
-    ├── playlist_stats.py    # Dedicated Task 1 script (Spotify play counts)
-    ├── session_2.py         # Complete Python execution script (Tasks 1-5)
-    ├── session_2.ipynb      # Interactive Jupyter Notebook
-    └── data/
-        └── ipl_player_runs.csv # Real Kaggle dataset for Task 5
+├── Session 2/
+│   ├── README.md            # Mean, Median, Mode & Outlier Analysis
+│   ├── playlist_stats.py    # Dedicated Task 1 script (Spotify play counts)
+│   ├── session_2.py         # Complete Python execution script (Tasks 1-5)
+│   ├── session_2.ipynb      # Interactive Jupyter Notebook
+│   └── data/
+│       └── ipl_player_runs.csv # Real Kaggle dataset for Task 5
+└── Session 3/
+    ├── README.md            # Variance & Standard Deviation Hand Calculations
+    ├── session_3.py         # Complete Python execution script (Tasks 1-4)
+    └── session_3.ipynb      # Interactive Jupyter Notebook
 ```
 
 ---
@@ -34,11 +38,17 @@ statistics/
 - **Task 4:** Utilizing **Mode**, **Mean**, and **Variance** in Spotify-like playlist recommendations with one-line examples.
 
 ### [Session 2: Mean, Median & Mode](Session%202/README.md)
-- **Task 1:** Created `playlist_stats.py` to calculate the mean daily Spotify song plays ($145.00$ plays/day).
+- **Task 1:** Created `playlist_stats.py` calculating mean daily Spotify song plays ($145.00$ plays/day).
 - **Task 2:** Computed median delivery time for Zomato orders ($30$ minutes).
 - **Task 3:** Implemented `most_common_rating(ratings)` returning the mode for Flipkart product ratings ($4$ stars).
 - **Task 4:** Compared YouTube video views across 3 channels to prove Channel C is most affected by viral outliers (Mean inflated to $924.17$ while Median remains $110.00$).
 - **Task 5:** Loaded real Kaggle IPL Player Runs dataset using `pandas`, computing Mean ($449.44$), Median ($413.00$), and Mode.
+
+### [Session 3: Variance & Standard Deviation](Session%203/README.md)
+- **Task 1:** Step-by-step hand calculation of weekly step counts variance ($s^2 \approx 3,488,095.24$, $s \approx 1,867.64$).
+- **Task 2:** Implemented `calculate_standard_deviation(scores)` returning sample standard deviation rounded to 2 decimal places.
+- **Task 3:** Compared Zomato daily spending of Friend A ($\sigma = 0.00$) vs Friend B ($s = 145.77$), proving Friend A is significantly more consistent.
+- **Task 4:** Analyzed startup monthly salaries, calculating high spread ($s = 13,255.19$) driven by a ₹60,000 outlier and showing that median better represents typical pay.
 
 ---
 
@@ -49,15 +59,17 @@ statistics/
 # Session 1
 python "Session 1/session_1.py"
 
-# Session 2 - Dedicated Spotify Task
+# Session 2
 python "Session 2/playlist_stats.py"
-
-# Session 2 - All Tasks
 python "Session 2/session_2.py"
+
+# Session 3
+python "Session 3/session_3.py"
 ```
 
 ### Launch Interactive Notebooks
 ```bash
 jupyter notebook "Session 1/session_1.ipynb"
 jupyter notebook "Session 2/session_2.ipynb"
+jupyter notebook "Session 3/session_3.ipynb"
 ```
