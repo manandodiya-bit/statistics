@@ -62,10 +62,14 @@ statistics/
 │   ├── README.md            # Bayes' Theorem, Spam Filtering & Prior/Posterior Logic
 │   ├── session_10.py        # Complete Python execution script (Tasks 1-4)
 │   └── session_10.ipynb     # Interactive Jupyter Notebook
-└── Session 11/
-    ├── README.md            # Vectors & Matrices, Indexing & Matrix Reductions
-    ├── session_11.py        # Complete Python execution script (Tasks 1-4)
-    └── session_11.ipynb     # Interactive Jupyter Notebook
+├── Session 11/
+│   ├── README.md            # Vectors & Matrices, Indexing & Matrix Reductions
+│   ├── session_11.py        # Complete Python execution script (Tasks 1-4)
+│   └── session_11.ipynb     # Interactive Jupyter Notebook
+└── Session 12/
+    ├── README.md            # Matrix Multiplication & Linear Regression Intuition
+    ├── session_12.py        # Complete Python execution script (Tasks 1-5)
+    └── session_12.ipynb     # Interactive Jupyter Notebook
 ```
 
 ---
@@ -141,6 +145,13 @@ statistics/
 - **Task 3:** Calculated total order volumes for 4 dishes across 3 days via matrix column sum reduction along `axis=0` ($[47, 65, 90, 42]$).
 - **Task 4:** Formulated a $5 \times 2$ Flipkart inventory matrix `[price, quantity]` and implemented `calculate_product_revenue()` computing individual and total catalog revenue (INR $345,880.00$).
 
+### [Session 12: Matrix Multiplication & Linear Regression Math Intuition](Session%2012/README.md)
+- **Task 1:** Multiplied two $2 \times 2$ Instagram post engagement matrices using `np.matmul` ($A @ B$) with step-by-step dot product proofs.
+- **Task 2:** Built reusable Python function `linear_regression_predict(x, m, c)` for evaluating $y = mx + c$.
+- **Task 3:** Predicted Zomato delivery times for distances ($2\text{km} \to 18\text{ mins}$, $5\text{km} \to 30\text{ mins}$, $8\text{km} \to 42\text{ mins}$) under $y = 4x + 10$.
+- **Task 4:** Defined real-world intuition for slope (rating price premium) and intercept (base manufacturing/listing cost) in Flipkart product pricing.
+- **Task 5:** Summarized role of matrix multiplication in training Spotify recommender models (latent feature dot products, GPU-accelerated parallelization).
+
 ---
 
 ## Quick Start
@@ -160,6 +171,7 @@ python "Session 8/session_8.py"
 python "Session 9/session_9.py"
 python "Session 10/session_10.py"
 python "Session 11/session_11.py"
+python "Session 12/session_12.py"
 ```
 
 ### Launch Interactive Notebooks
@@ -175,4 +187,5 @@ jupyter notebook "Session 8/session_8.ipynb"
 jupyter notebook "Session 9/session_9.ipynb"
 jupyter notebook "Session 10/session_10.ipynb"
 jupyter notebook "Session 11/session_11.ipynb"
+jupyter notebook "Session 12/session_12.ipynb"
 ```
