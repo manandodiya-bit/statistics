@@ -58,10 +58,14 @@ statistics/
 │   ├── session_9.ipynb      # Interactive Jupyter Notebook
 │   └── plots/
 │       └── task_1_normal_distribution_bell_curve.png
-└── Session 10/
-    ├── README.md            # Bayes' Theorem, Spam Filtering & Prior/Posterior Logic
-    ├── session_10.py        # Complete Python execution script (Tasks 1-4)
-    └── session_10.ipynb     # Interactive Jupyter Notebook
+├── Session 10/
+│   ├── README.md            # Bayes' Theorem, Spam Filtering & Prior/Posterior Logic
+│   ├── session_10.py        # Complete Python execution script (Tasks 1-4)
+│   └── session_10.ipynb     # Interactive Jupyter Notebook
+└── Session 11/
+    ├── README.md            # Vectors & Matrices, Indexing & Matrix Reductions
+    ├── session_11.py        # Complete Python execution script (Tasks 1-4)
+    └── session_11.ipynb     # Interactive Jupyter Notebook
 ```
 
 ---
@@ -131,6 +135,12 @@ statistics/
 - **Task 3:** Built Naive Bayes spam email filter classifying 20 email subjects with keyword 'free' ($P(\text{Spam} \mid \text{'free'}) = 80.00\%$).
 - **Task 4:** Formulated and solved Instagram bot detection problem, illustrating Base Rate Fallacy ($P(\text{Bot} \mid \text{Generic}) = 26.92\%$).
 
+### [Session 11: Vectors & Matrices (Basic)](Session%2011/README.md)
+- **Task 1:** Represented 5 playlist track durations as a 1D vector; computed total duration ($1010$ seconds / $16$ mins $50$ secs) and vector magnitude.
+- **Task 2:** Constructed a $3 \times 3$ Swiggy user-item rating matrix and extracted column slice ratings for the second food item ($[4, 5, 2]$).
+- **Task 3:** Calculated total order volumes for 4 dishes across 3 days via matrix column sum reduction along `axis=0` ($[47, 65, 90, 42]$).
+- **Task 4:** Formulated a $5 \times 2$ Flipkart inventory matrix `[price, quantity]` and implemented `calculate_product_revenue()` computing individual and total catalog revenue (INR $345,880.00$).
+
 ---
 
 ## Quick Start
@@ -149,6 +159,7 @@ python "Session 7/session_7.py"
 python "Session 8/session_8.py"
 python "Session 9/session_9.py"
 python "Session 10/session_10.py"
+python "Session 11/session_11.py"
 ```
 
 ### Launch Interactive Notebooks
@@ -163,4 +174,5 @@ jupyter notebook "Session 7/session_7.ipynb"
 jupyter notebook "Session 8/session_8.ipynb"
 jupyter notebook "Session 9/session_9.ipynb"
 jupyter notebook "Session 10/session_10.ipynb"
+jupyter notebook "Session 11/session_11.ipynb"
 ```
