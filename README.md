@@ -37,10 +37,17 @@ statistics/
 │   ├── random_sampling.py   # Dedicated Task 2 script (random.sample)
 │   ├── session_5.py         # Complete Python execution script (Tasks 1-5)
 │   └── session_5.ipynb      # Interactive Jupyter Notebook
-└── Session 6/
-    ├── README.md            # Hypothesis Testing, t-Tests, p-Values & A/B Testing
-    ├── session_6.py         # Complete Python execution script (Tasks 1-4)
-    └── session_6.ipynb      # Interactive Jupyter Notebook
+├── Session 6/
+│   ├── README.md            # Hypothesis Testing, t-Tests, p-Values & A/B Testing
+│   ├── session_6.py         # Complete Python execution script (Tasks 1-4)
+│   └── session_6.ipynb      # Interactive Jupyter Notebook
+└── Session 7/
+    ├── README.md            # Correlation, Scatter Plots, np.corrcoef Analysis
+    ├── session_7.py         # Python script & plot generator (Tasks 1-4)
+    ├── session_7.ipynb      # Interactive Jupyter Notebook
+    └── plots/
+        ├── task_1_instagram_scatter.png
+        └── task_4_spotify_vs_marks_negative_correlation.png
 ```
 
 ---
@@ -85,6 +92,12 @@ statistics/
 - **Task 3:** Designed complete A/B test for Paytm's redesigned sticky "Pay Now" payment button.
 - **Task 4:** Evaluated Flipkart's wishlist button A/B test (520 vs 480 clicks), explaining why the result ($p = 0.0736$) is due to chance.
 
+### [Session 7: Correlation](Session%207/README.md)
+- **Task 1:** Plotted scatter plot of Instagram daily hours vs. posts created, verifying strong positive correlation ($r = 0.9576$).
+- **Task 2:** Calculated correlation coefficient for Zomato vs. Swiggy monthly orders among 6 friends using `np.corrcoef` ($r = 0.9962$).
+- **Task 3:** Analyzed real-life negative correlation between daily YouTube entertainment screen time and focused study hours.
+- **Task 4:** Generated and plotted 10-pair dataset demonstrating strong negative correlation ($r = -0.9963$) between Spotify hours and exam test marks.
+
 ---
 
 ## Quick Start
@@ -99,6 +112,7 @@ python "Session 4/session_4.py"
 python "Session 5/random_sampling.py"
 python "Session 5/session_5.py"
 python "Session 6/session_6.py"
+python "Session 7/session_7.py"
 ```
 
 ### Launch Interactive Notebooks
@@ -109,4 +123,5 @@ jupyter notebook "Session 3/session_3.ipynb"
 jupyter notebook "Session 4/session_4.ipynb"
 jupyter notebook "Session 5/session_5.ipynb"
 jupyter notebook "Session 6/session_6.ipynb"
+jupyter notebook "Session 7/session_7.ipynb"
 ```
