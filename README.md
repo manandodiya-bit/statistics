@@ -1,6 +1,6 @@
 # Statistics in Data Science
 
-Welcome to the **Statistics** repository. This repository contains complete solutions, analytical writeups, code scripts, datasets, and interactive Jupyter Notebooks for all Statistics sessions in Data Science.
+Welcome to the **Statistics** repository. This repository contains complete solutions, analytical writeups, code scripts, datasets, high-resolution plots, and interactive Jupyter Notebooks for all Statistics sessions in Data Science.
 
 ---
 
@@ -21,10 +21,17 @@ statistics/
 │   ├── session_2.ipynb      # Interactive Jupyter Notebook
 │   └── data/
 │       └── ipl_player_runs.csv # Real Kaggle dataset for Task 5
-└── Session 3/
-    ├── README.md            # Variance & Standard Deviation Hand Calculations
-    ├── session_3.py         # Complete Python execution script (Tasks 1-4)
-    └── session_3.ipynb      # Interactive Jupyter Notebook
+├── Session 3/
+│   ├── README.md            # Variance & Standard Deviation Hand Calculations
+│   ├── session_3.py         # Complete Python execution script (Tasks 1-4)
+│   └── session_3.ipynb      # Interactive Jupyter Notebook
+└── Session 4/
+    ├── README.md            # Skewness (Basic), Distributions & Real-World Apps
+    ├── session_4.py         # Python script & plot generator (Tasks 1-4)
+    ├── session_4.ipynb      # Interactive Jupyter Notebook
+    └── plots/
+        ├── swiggy_orders_distribution.png     # Right-skewed distribution
+        └── flipkart_ratings_distribution.png  # Left-skewed distribution
 ```
 
 ---
@@ -50,21 +57,23 @@ statistics/
 - **Task 3:** Compared Zomato daily spending of Friend A ($\sigma = 0.00$) vs Friend B ($s = 145.77$), proving Friend A is significantly more consistent.
 - **Task 4:** Analyzed startup monthly salaries, calculating high spread ($s = 13,255.19$) driven by a ₹60,000 outlier and showing that median better represents typical pay.
 
+### [Session 4: Skewness (Basic)](Session%204/README.md)
+- **Task 1:** Swiggy delivery partner orders plotted and classified as **Right-Skewed** due to a 200-order outlier ($\text{Mean } 33.40 > \text{Median } 15.00$).
+- **Task 2:** Instagram influencer followers analyzed ($\text{Mean } 18.78\text{k} > \text{Median } 9.00\text{k}$), demonstrating positive (right) skewness.
+- **Task 3:** Real-world right-skewed app analysis of Zomato order basket amounts (bounded lower end vs. unbounded upper catering orders).
+- **Task 4:** Flipkart product ratings graphed and classified as **Left-Skewed** ($\text{Mean } 4.30 < \text{Median } 4.50 < \text{Mode } 5.00$) with one-line justification.
+
 ---
 
 ## Quick Start
 
 ### Run All Session Scripts
 ```bash
-# Session 1
 python "Session 1/session_1.py"
-
-# Session 2
 python "Session 2/playlist_stats.py"
 python "Session 2/session_2.py"
-
-# Session 3
 python "Session 3/session_3.py"
+python "Session 4/session_4.py"
 ```
 
 ### Launch Interactive Notebooks
@@ -72,4 +81,5 @@ python "Session 3/session_3.py"
 jupyter notebook "Session 1/session_1.ipynb"
 jupyter notebook "Session 2/session_2.ipynb"
 jupyter notebook "Session 3/session_3.ipynb"
+jupyter notebook "Session 4/session_4.ipynb"
 ```
