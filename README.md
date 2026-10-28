@@ -48,10 +48,16 @@ statistics/
 │   └── plots/
 │       ├── task_1_instagram_scatter.png
 │       └── task_4_spotify_vs_marks_negative_correlation.png
-└── Session 8/
-    ├── README.md            # Probability Basics, Simulations & Recommendation Systems
-    ├── session_8.py         # Complete Python execution script (Tasks 1-5)
-    └── session_8.ipynb      # Interactive Jupyter Notebook
+├── Session 8/
+│   ├── README.md            # Probability Basics, Simulations & Recommendation Systems
+│   ├── session_8.py         # Complete Python execution script (Tasks 1-5)
+│   └── session_8.ipynb      # Interactive Jupyter Notebook
+└── Session 9/
+    ├── README.md            # Normal Distribution, Bell Curves & Empirical Rule
+    ├── session_9.py         # Python script & bell curve generator (Tasks 1-4)
+    ├── session_9.ipynb      # Interactive Jupyter Notebook
+    └── plots/
+        └── task_1_normal_distribution_bell_curve.png
 ```
 
 ---
@@ -109,6 +115,12 @@ statistics/
 - **Task 4:** Implemented set-theoretic intersection over union for Zomato food and dessert orders ($P(\text{Both}) = 3/10 = 0.30$).
 - **Task 5:** Modeled Flipkart recommendation engine using conditional probability $P(\text{Headphones} \mid \text{Phone}) = 70.0\%$ for targeted cross-selling.
 
+### [Session 9: Normal Distribution](Session%209/README.md)
+- **Task 1:** Simulated 100 numbers from $\mathcal{N}(50, 10^2)$ and plotted theoretical bell curve probability density function.
+- **Task 2:** Checked 20 daily fitness step counts, verifying $\text{Mean } (8015) \approx \text{Median } (8000) \approx \text{Mode } (8000)$.
+- **Task 3:** Evaluated 200 online game player scores against the 68-95-99.7 Empirical Rule ($145$ players within $1\sigma$, matching $68.27\%$ theory).
+- **Task 4:** Modeled Spotify song durations using normal distribution based on central tendency, Central Limit Theorem, and diminishing tails.
+
 ---
 
 ## Quick Start
@@ -125,6 +137,7 @@ python "Session 5/session_5.py"
 python "Session 6/session_6.py"
 python "Session 7/session_7.py"
 python "Session 8/session_8.py"
+python "Session 9/session_9.py"
 ```
 
 ### Launch Interactive Notebooks
@@ -137,4 +150,5 @@ jupyter notebook "Session 5/session_5.ipynb"
 jupyter notebook "Session 6/session_6.ipynb"
 jupyter notebook "Session 7/session_7.ipynb"
 jupyter notebook "Session 8/session_8.ipynb"
+jupyter notebook "Session 9/session_9.ipynb"
 ```
