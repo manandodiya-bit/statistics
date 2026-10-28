@@ -52,12 +52,16 @@ statistics/
 │   ├── README.md            # Probability Basics, Simulations & Recommendation Systems
 │   ├── session_8.py         # Complete Python execution script (Tasks 1-5)
 │   └── session_8.ipynb      # Interactive Jupyter Notebook
-└── Session 9/
-    ├── README.md            # Normal Distribution, Bell Curves & Empirical Rule
-    ├── session_9.py         # Python script & bell curve generator (Tasks 1-4)
-    ├── session_9.ipynb      # Interactive Jupyter Notebook
-    └── plots/
-        └── task_1_normal_distribution_bell_curve.png
+├── Session 9/
+│   ├── README.md            # Normal Distribution, Bell Curves & Empirical Rule
+│   ├── session_9.py         # Python script & bell curve generator (Tasks 1-4)
+│   ├── session_9.ipynb      # Interactive Jupyter Notebook
+│   └── plots/
+│       └── task_1_normal_distribution_bell_curve.png
+└── Session 10/
+    ├── README.md            # Bayes' Theorem, Spam Filtering & Prior/Posterior Logic
+    ├── session_10.py        # Complete Python execution script (Tasks 1-4)
+    └── session_10.ipynb     # Interactive Jupyter Notebook
 ```
 
 ---
@@ -121,6 +125,12 @@ statistics/
 - **Task 3:** Evaluated 200 online game player scores against the 68-95-99.7 Empirical Rule ($145$ players within $1\sigma$, matching $68.27\%$ theory).
 - **Task 4:** Modeled Spotify song durations using normal distribution based on central tendency, Central Limit Theorem, and diminishing tails.
 
+### [Session 10: Bayes Theorem (Basic)](Session%2010/README.md)
+- **Task 1:** Implemented `bayes_posterior(prior, likelihood, evidence)` calculating posterior probability.
+- **Task 2:** Solved Swiggy premium restaurant discount problem via Law of Total Probability ($P(\text{Premium} \mid \text{Discount}) = 30.77\%$).
+- **Task 3:** Built Naive Bayes spam email filter classifying 20 email subjects with keyword 'free' ($P(\text{Spam} \mid \text{'free'}) = 80.00\%$).
+- **Task 4:** Formulated and solved Instagram bot detection problem, illustrating Base Rate Fallacy ($P(\text{Bot} \mid \text{Generic}) = 26.92\%$).
+
 ---
 
 ## Quick Start
@@ -138,6 +148,7 @@ python "Session 6/session_6.py"
 python "Session 7/session_7.py"
 python "Session 8/session_8.py"
 python "Session 9/session_9.py"
+python "Session 10/session_10.py"
 ```
 
 ### Launch Interactive Notebooks
@@ -151,4 +162,5 @@ jupyter notebook "Session 6/session_6.ipynb"
 jupyter notebook "Session 7/session_7.ipynb"
 jupyter notebook "Session 8/session_8.ipynb"
 jupyter notebook "Session 9/session_9.ipynb"
+jupyter notebook "Session 10/session_10.ipynb"
 ```
