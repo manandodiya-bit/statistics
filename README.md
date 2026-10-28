@@ -32,11 +32,15 @@ statistics/
 │   └── plots/
 │       ├── swiggy_orders_distribution.png     # Right-skewed distribution
 │       └── flipkart_ratings_distribution.png  # Left-skewed distribution
-└── Session 5/
-    ├── README.md            # Sampling Theory, Bias Analysis & Methodologies
-    ├── random_sampling.py   # Dedicated Task 2 script (random.sample)
-    ├── session_5.py         # Complete Python execution script (Tasks 1-5)
-    └── session_5.ipynb      # Interactive Jupyter Notebook
+├── Session 5/
+│   ├── README.md            # Sampling Theory, Bias Analysis & Methodologies
+│   ├── random_sampling.py   # Dedicated Task 2 script (random.sample)
+│   ├── session_5.py         # Complete Python execution script (Tasks 1-5)
+│   └── session_5.ipynb      # Interactive Jupyter Notebook
+└── Session 6/
+    ├── README.md            # Hypothesis Testing, t-Tests, p-Values & A/B Testing
+    ├── session_6.py         # Complete Python execution script (Tasks 1-4)
+    └── session_6.ipynb      # Interactive Jupyter Notebook
 ```
 
 ---
@@ -75,6 +79,12 @@ statistics/
 - **Task 4:** Identified and analyzed Selection Bias / Undercoverage Bias in Spotify's Bollywood-only music survey.
 - **Task 5:** Designed Stratified Sampling and Systematic Sampling frameworks for studying BookMyShow movie booking habits.
 
+### [Session 6: Hypothesis Testing (Basic)](Session%206/README.md)
+- **Task 1:** Formulated $H_0$ and $H_1$ for daily time spent on Instagram vs. YouTube.
+- **Task 2:** Executed two-sample t-test for Zomato home page redesign ($t = 2.3238$, $p = 0.0237 < 0.05 \implies \text{Reject } H_0$).
+- **Task 3:** Designed complete A/B test for Paytm's redesigned sticky "Pay Now" payment button.
+- **Task 4:** Evaluated Flipkart's wishlist button A/B test (520 vs 480 clicks), explaining why the result ($p = 0.0736$) is due to chance.
+
 ---
 
 ## Quick Start
@@ -88,6 +98,7 @@ python "Session 3/session_3.py"
 python "Session 4/session_4.py"
 python "Session 5/random_sampling.py"
 python "Session 5/session_5.py"
+python "Session 6/session_6.py"
 ```
 
 ### Launch Interactive Notebooks
@@ -97,4 +108,5 @@ jupyter notebook "Session 2/session_2.ipynb"
 jupyter notebook "Session 3/session_3.ipynb"
 jupyter notebook "Session 4/session_4.ipynb"
 jupyter notebook "Session 5/session_5.ipynb"
+jupyter notebook "Session 6/session_6.ipynb"
 ```
